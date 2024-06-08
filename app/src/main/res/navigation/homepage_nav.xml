@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homepage_nav"
+    app:startDestination="@id/nav_movies">
+
+    <fragment
+        android:id="@+id/nav_movies"
+        android:name="com.android.mywatchlist.fragments.homepage.movies.MoviesFragment"
+        android:label="@string/movies"
+        tools:layout="@layout/fragment_movies">
+        <action
+            android:id="@+id/action_nav_movies_to_tvShowsFragment"
+            app:destination="@id/nav_tv_shows" />
+        <action
+            android:id="@+id/action_nav_movies_to_myWatchListFragment"
+            app:destination="@id/nav_mwl" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_tv_shows"
+        android:name="com.android.mywatchlist.fragments.homepage.tv_shows.TvShowsFragment"
+        android:label="@string/tv_shows"
+        tools:layout="@layout/fragment_tv_shows">
+        <action
+            android:id="@+id/action_nav_tv_shows_to_moviesFragment"
+            app:destination="@id/nav_movies" />
+        <action
+            android:id="@+id/action_nav_tv_shows_to_myWatchListFragment"
+            app:destination="@id/nav_mwl" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_mwl"
+        android:name="com.android.mywatchlist.fragments.MyWatchListFragment"
+        android:label="@string/my_watch_list"
+        tools:layout="@layout/fragment_my_watch_list">
+        <action
+            android:id="@+id/action_myWatchListFragment_to_tvShowsFragment"
+            app:destination="@id/nav_tv_shows" />
+        <action
+            android:id="@+id/action_myWatchListFragment_to_nav_movies"
+            app:destination="@id/nav_movies" />
+    </fragment>
+</navigation>

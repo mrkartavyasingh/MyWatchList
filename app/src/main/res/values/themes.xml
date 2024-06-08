@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyWATCHLIST" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/backgroundColor</item>
+        <item name="backgroundColor">@color/backgroundColor</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/backgroundColor</item>
+    </style>
+
+    <style name="Theme.MyWATCHLIST" parent="Base.Theme.MyWATCHLIST">
+        <item name="searchViewStyle">@style/SearchView.Style</item>
+
+    </style>
+
+    <style name="SearchView.Style" parent="Widget.AppCompat.SearchView">
+        <item name="queryBackground">@color/backgroundColor</item>
+        <item name="searchHintIcon">@null</item>
+    </style>
+</resources>

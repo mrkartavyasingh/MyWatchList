@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/movie_item_youtube_poster_CardView"
+    style="@style/ElementItem.CardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginHorizontal="5dp"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            style="@style/ElementItem.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/movie_item_youtube_poster_ImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/todo"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/icon_youtube"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/icon_youtube_play"
+                android:visibility="invisible" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/movie_item_youtube_type_TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/blackColor" />
+
+        <TextView
+            android:id="@+id/movie_item_youtube_name_TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:lines="2"
+            android:textColor="@color/blackColor" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

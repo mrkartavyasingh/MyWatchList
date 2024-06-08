@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_movies"
+            android:title="@string/movies"
+            android:icon="@drawable/icon_movie"
+            android:checked="true"/>
+
+        <item
+            android:id="@+id/nav_tv_shows"
+            android:title="@string/tv_shows"
+            android:icon="@drawable/icon_tv_shows"/>
+
+        <item
+            android:id="@+id/nav_mwl"
+            android:title="@string/my_watch_list"
+            android:icon="@drawable/icon_mwl"/>
+
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Settings"
+            android:icon="@drawable/icon_settings"/>
+
+        <item
+            android:id="@+id/nav_about_us"
+            android:title="About Us"
+            android:icon="@drawable/icon_about_us"/>
+
+    </group>
+
+</menu>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blackColor">#FF000000</color>
+    <color name="whiteColor">#ffffff</color>
+
+    <color name="foregroundColor">#FF000000</color>
+    <color name="backgroundColor">#f2d696</color>
+
+    <color name="buttonColor1">#eb6385</color>
+    <color name="buttonColor2">#e64a07</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="edit_text_background">#f6fbff</color>
+
+    <color name="white_100">#f0f7f7</color>
+    <color name="white_200">#edf2f2</color>
+    <color name="white_300">#d7dfe0</color>
+</resources>

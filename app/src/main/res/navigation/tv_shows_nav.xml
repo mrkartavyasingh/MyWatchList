@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_shows_nav"
+    app:startDestination="@id/tvShowElementFragment">
+    <fragment
+        android:id="@+id/tvShowElementFragment"
+        android:name="com.android.mywatchlist.fragments.homepage.tv_shows.TvShowElementFragment"
+        android:label="@string/tv_show_info"
+        tools:layout="@layout/fragment_tv_show_element" >
+        <action
+            android:id="@+id/action_tvShowElementFragment_to_tvShowSeasonElementFragment"
+            app:destination="@id/tvShowSeasonElementFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tvShowSeasonElementFragment"
+        android:name="com.android.mywatchlist.fragments.homepage.tv_shows.TvShowSeasonElementFragment"
+        android:label="@string/tv_show_season_info"
+        tools:layout="@layout/fragment_tv_show_season_element" >
+        <action
+            android:id="@+id/action_tvShowSeasonElementFragment_to_tvShowElementFragment"
+            app:destination="@id/tvShowElementFragment" />
+    </fragment>
+</navigation>

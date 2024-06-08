@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">My WATCH LIST</string>
+    <string name="search_view_movies_query_hint">Search for a movie…</string>
+    <string name="search_view_tv_shows_query_hint">Search for a tv show…</string>
+
+    <string-array name="mwl">
+        <item>@string/movies</item>
+        <item>@string/tv_shows</item>
+        <item>@string/anime</item>
+    </string-array>
+
+    <string name="nav_open">Open Navigation Drawer</string>
+    <string name="nav_close">Close Navigation Drawer</string>
+
+    <string name="element_image">element image</string>
+
+    <string name="movies">MOVIES</string>
+    <string name="tv_shows">TV SHOWS</string>
+    <string name="anime">ANIME</string>
+    <string name="my_watch_list">My Watch List</string>
+
+    <string name="search">SEARCH</string>
+    <string name="no_results_available">No Results Available</string>
+
+    <string name="now_playing_movies_title">NOW PLAYING MOVIES</string>
+    <string name="trending_movies_title">TREND OF THE DAY (MOVIES)</string>
+    <string name="popular_movies_title">POPULAR MOVIES</string>
+    <string name="upcoming_movies_title">UPCOMING</string>
+
+    <string name="airing_today_tv_shows_title">AIRING TODAY TV SHOWS</string>
+    <string name="trending_tv_shows_title">TREND OF THE DAY (TV SHOWS)</string>
+    <string name="on_the_air_tv_shows_title">ON THE AIR</string>
+    <string name="popular_tv_shows_title">POPULAR TV SHOWS</string>
+
+    <string name="view_all">VIEW ALL</string>
+    <string name="todo">TODO</string>
+    <string name="prompt_email">Enter Your Email - Id</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign - in</string>
+    <string name="welcome_back">Welcome\nBack</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="enter_your_password">Enter Your Password</string>
+
+    <string name="trailer_and_clips">Trailer And Clips</string>
+    <string name="add_to_list">Add To List</string>
+    <string name="top_billed_cast">Top Billed Cast</string>
+    <string name="overview">Overview</string>
+    <string name="production_companies">Production Companies</string>
+
+    <string name="movie_info">MOVIE INFO</string>
+    <string name="tv_show_info">TV SHOW INFO</string>
+    <string name="tv_show_season_info">TV SHOW SEASON INFO</string>
+
+    <string name="series_cast">Series Cast</string>
+    <string name="creator">Creator</string>
+    <string name="networks">Networks</string>
+
+    <string name="recommended_movies">Recommended Movies</string>
+    <string name="recommended_tv_shows">Recommended Tv Shows</string>
+    <string name="similar_movies">Similar Movies</string>
+    <string name="similar_tv_shows">Similar Tv Shows</string>
+
+    <string name="seasons">Seasons</string>
+    <string name="select_my_watch_category">Select My Watch List Category</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout">Logout</string>
+
+</resources>

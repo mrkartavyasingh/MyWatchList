@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1083235887288",
+    "project_id": "my-watch-list-70518",
+    "storage_bucket": "my-watch-list-70518.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083235887288:android:beeaf84c9383ce201cec4d",
+        "android_client_info": {
+          "package_name": "com.android.mywatchlist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083235887288-qerkgkl6rgv0nlidokg4rpb5g7gg9i6g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.mywatchlist",
+            "certificate_hash": "de571d5ebf9656f061d50e289c26613586ee3b43"
+          }
+        },
+        {
+          "client_id": "1083235887288-01qqvou4tnhjpv0mhaiiooab55019tf0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDElINaalmjVk6NAYfs46_mmwn2mgaUo_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083235887288-01qqvou4tnhjpv0mhaiiooab55019tf0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

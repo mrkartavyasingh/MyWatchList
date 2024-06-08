@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:paddingHorizontal="3dp"
+    android:paddingVertical="3dp"
+    tools:context=".fragments.MyWatchListFragment">
+
+    <TextView
+        android:id="@+id/mwl_itemCount_TextView"
+        style="@style/HomePage.TextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:visibility="gone" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/mwl_choose_category_TextInputLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mwl_itemCount_TextView"
+        android:layout_marginHorizontal="10dp"
+        android:hint="@string/select_my_watch_category"
+        app:boxBackgroundColor="@color/white_200"
+        app:boxStrokeColor="@color/blackColor"
+        app:endIconTint="@color/blackColor"
+        app:hintTextColor="@color/blackColor">
+
+        <AutoCompleteTextView
+            android:id="@+id/mwl_choose_category_AutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:inputType="none"
+            tools:ignore="LabelFor" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mwl_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/mwl_choose_category_TextInputLayout"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="5dp" />
+
+    <TextView
+        android:id="@+id/mwl_no_result_available_TextView"
+        style="@style/NoResultAvailable.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<resources>
+
+    <style name="MyAppName" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/foregroundColor</item>
+    </style>
+
+    <style name="TextStyleToolBarHeading" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">23sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/foregroundColor</item>
+    </style>
+
+    <style name="HomePage.LinearLayout" parent="">
+        <item name="android:background">@drawable/bg_home_page</item>
+        <item name="android:layout_marginHorizontal">2dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:paddingHorizontal">5dp</item>
+    </style>
+
+    <style name="HomePage.TextViewStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/bowlby_one</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:textColor">@color/foregroundColor</item>
+        <item name="android:layout_marginStart">3dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="HomePage.ButtonViewStyle" parent="Widget.AppCompat.ActionButton">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:elevation">50dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="backgroundTint">@color/buttonColor1</item>
+        <item name="android:background">@drawable/bg_round_button_1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="HomePage.CardViewStyle" parent="CardView.Light">
+        <item name="cardElevation">0dp</item>
+        <item name="cardBackgroundColor">@color/transparent</item>
+        <item name="android:colorForeground">@color/foregroundColor</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="ElementItem.CardView" parent="CardView.Light">
+        <item name="cardElevation">20dp</item>
+        <item name="cardCornerRadius">15dp</item>
+    </style>
+
+    <style name="ElementItem.TextView" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/foregroundColor</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Expand.TextView" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">10sp</item>
+        <item name="android:shadowColor">@color/blackColor</item>
+        <item name="android:shadowRadius">10</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">6</item>
+        <item name="android:textColor">@color/whiteColor</item>
+        <item name="android:layout_marginTop">2dp</item>
+    </style>
+
+    <style name="SearchActivity.SearchView" parent="Widget.AppCompat.Light.SearchView">
+        <item name="searchIcon">@drawable/icon_search</item>
+        <item name="android:background">@drawable/bg_search_view</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:focusable">true</item>
+        <item name="iconifiedByDefault">false</item>
+    </style>
+
+    <style name="SignInActivity.EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:layout_marginHorizontal">10dp</item>
+        <item name="android:background">@drawable/bg_edit_text</item>
+        <item name="drawableTint">@color/teal_700</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:ems">10</item>
+    </style>
+    
+    <style name="NoResultAvailable.TextView" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:letterSpacing">0.26</item>
+        <item name="android:textColor">@color/foregroundColor</item>
+        <item name="android:fontFamily">@font/saira_stencil_one</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:text">@string/no_results_available</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="AdvanceSearchDialogBoxTheme" parent="Theme.AppCompat.Light.Dialog.MinWidth">
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>
